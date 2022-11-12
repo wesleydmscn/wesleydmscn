@@ -1,4 +1,6 @@
-import { LinkedinLogo, GithubLogo, CodepenLogo } from 'phosphor-react';
+import { InstagramLogo, LinkedinLogo, GithubLogo, CodepenLogo } from 'phosphor-react';
+import { Link } from './components/Link';
+
 import './styles/global.css';
 
 export const App = () => {
@@ -12,29 +14,22 @@ export const App = () => {
           <p className='text-blue-light ml-6'>return &#40;</p>
 
           <div className='my-6 flex gap-x-6 justify-center'>
-            <a 
-              className='hover:bg-blue-dark transition-colors rounded'
-              href="https://www.linkedin.com/in/wesleydamasceno/"
-              target="_blank"
-            >
+
+            <Link url="https://www.linkedin.com/in/wesleydamasceno/">
               <LinkedinLogo size={48} color="white" weight='light'/>
-            </a>
+            </Link>
 
-            <a 
-              className='hover:bg-blue-dark transition-colors rounded'
-              href="https://github.com/wesleydamasceno"
-              target="_blank"
-            >
+            <Link url="https://github.com/wesleydamasceno">
               <GithubLogo size={48} color="white" weight='light'/>
-            </a>
+            </Link>
 
-            <a 
-              className='hover:bg-blue-dark transition-colors rounded'
-              href="https://codepen.io/wesleydmscn/pens/public"
-              target="_blank"
-            >
+            <Link url="https://codepen.io/wesleydmscn/pens/public">
               <CodepenLogo size={48} color="white" weight='light'/>
-            </a>
+            </Link>
+
+            <Link url="https://instagram.com/wesleydmscn/">
+              <InstagramLogo size={48} color="white" weight='light'/>
+            </Link>
           </div>
 
           <p className='text-blue-light ml-6'>&#41;</p>
