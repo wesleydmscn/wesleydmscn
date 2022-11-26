@@ -20,4 +20,4 @@
 
 <h2>License</h2>
 
-<p>Licensed under the <a href="./LICENSE.txt">MIT</a> license.</p>
+<p>Licensed under the <a href="./LICENSE">MIT</a> license.</p>
