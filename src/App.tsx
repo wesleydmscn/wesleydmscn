@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Links } from './components/Links';
 import './styles/global.css';
 
@@ -9,9 +9,11 @@ export const App = () => {
     const data = await response.json();
 
     setAvatar(data.avatar_url);
+
+    console.log('renderizou');
   }
 
-  getGitHubProfile();
+  useEffect(() => { getGitHubProfile() }, []);
 
   return (
     <div className='sm:text-sm md:text-base w-screen h-screen bg-blue-dark grid place-items-center'>
