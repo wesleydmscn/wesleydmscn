@@ -1,43 +1,44 @@
-import { InstagramLogo, LinkedinLogo, GithubLogo, CodepenLogo } from 'phosphor-react';
-import { Link } from './components/Link';
-
+import { useState } from 'react';
+import { Links } from './components/Links';
 import './styles/global.css';
 
 export const App = () => {
+  const [avatar, setAvatar] = useState('');
+  const getGitHubProfile = async () => {
+    const response = await fetch('https://api.github.com/users/wesleydmscn');
+    const data = await response.json();
+
+    setAvatar(data.avatar_url);
+  }
+
+  getGitHubProfile();
+
   return (
-    <div className='sm:text-sm md:text-base w-screen h-screen bg-blue grid place-items-center'>
-      <section className='flex flex-col gap-y-6'>
-        <p className='text-blue-light'>import &#123; social &#125; from "./backpack.js"</p>
+    <div className='sm:text-sm md:text-base w-screen h-screen bg-blue-dark grid place-items-center'>
+      <main className='m-8 grid gap-y-6 text-white'>
+        <header className='flex flex-wrap gap-6'>
+          <img 
+            className='w-16 h-16 border-2 border-blue rounded-full' 
+            src={avatar}
+            alt="Profile Avatar"
+          />
 
-        <div>
-          <p className='text-blue-light'>function myLinks&#40; links &#41; &#123;</p>
-          <p className='text-blue-light ml-6'>return &#40;</p>
-
-          <div className='my-6 flex gap-x-6 justify-center'>
-
-            <Link url="https://www.linkedin.com/in/wesleydamasceno/">
-              <LinkedinLogo size={48} color="white" weight='light'/>
-            </Link>
-
-            <Link url="https://github.com/wesleydamasceno">
-              <GithubLogo size={48} color="white" weight='light'/>
-            </Link>
-
-            <Link url="https://codepen.io/wesleydmscn/pens/public">
-              <CodepenLogo size={48} color="white" weight='light'/>
-            </Link>
-
-            <Link url="https://instagram.com/wesleydmscn/">
-              <InstagramLogo size={48} color="white" weight='light'/>
-            </Link>
+          <div>
+            <h1 className='text-2xl text-blue font-bold'>Hello World.</h1>
+            <h2 className='text-2xl text-blue font-bold'>My name is Wesley Damasceno.</h2>
           </div>
+        </header>
 
-          <p className='text-blue-light ml-6'>&#41;</p>
-          <p className='text-blue-light'>&#125;</p>
-        </div>
+        <p className='max-w-xl'>
+          I'm a software developer based in Brazil. Currently with knowledge in front-end and back-end with
+          JavaScript. Looking for an opportunity to use my coding <i className='text-blue font-bold'>skills</i>, solve complex problems and help complete
+          projects. Besides programming, I like video games, old movies, chess and math.
+        </p>
 
-        <p className='text-blue-light'>myLinks&#40;social&#41;;</p>
-      </section>
+        <footer className='flex gap-x-6'>
+          <Links />
+        </footer>
+      </main>
     </div>
   );
 };
