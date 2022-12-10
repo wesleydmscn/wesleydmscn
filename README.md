@@ -1,6 +1,6 @@
-<h1>Social Links <img align="center" src="./public/cat.svg"/></h1>
+<h1>Wesley Damasceno <img align="center" src="./public/cat.svg"/></h1>
 
-<p>This repository is for the sole purpose of organizing my networks in one place.</p>
+<p>This repository has the sole purpose of serving as a simple portfolio website.</p>
 
 <h2>Techs</h2>
 
@@ -14,9 +14,10 @@
 
 <h2>Links</h2>
 
-- [Linkedin](https://www.linkedin.com/in/wesleydamasceno/)
 - [Github](https://github.com/wesleydamasceno)
 - [Codepen](https://codepen.io/wesleydmscn/pens/public)
+- [Linkedin](https://www.linkedin.com/in/wesleydamasceno/)
+- [Twitter](https://twitter.com/wesleydmscn)
 
 <h2>License</h2>
 
