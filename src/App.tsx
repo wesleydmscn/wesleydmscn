@@ -9,8 +9,6 @@ export const App = () => {
     const data = await response.json();
 
     setAvatar(data.avatar_url);
-
-    console.log('renderizou');
   }
 
   useEffect(() => { getGitHubProfile() }, []);
