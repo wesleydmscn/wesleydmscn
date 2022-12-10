@@ -14,7 +14,7 @@
 
 <h2>Links</h2>
 
-- [Github](https://github.com/wesleydamasceno)
+- [Github](https://github.com/wesleydmscn)
 - [Codepen](https://codepen.io/wesleydmscn/pens/public)
 - [Linkedin](https://www.linkedin.com/in/wesleydamasceno/)
 - [Twitter](https://twitter.com/wesleydmscn)
