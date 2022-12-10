@@ -8,12 +8,11 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'sm': '360px',
+        'sm': '22.5rem',
       },
       colors: {
         'blue': '#317BC0',
-        'blue-light': '#D6E5F2',
-        'blue-dark': '#26649D',
+        'blue-dark': '#0D1117',
         'white': '#FFF',
       },
       fontFamily: {
