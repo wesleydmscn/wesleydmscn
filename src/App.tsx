@@ -19,7 +19,7 @@ export const App = () => {
         <header className='flex flex-wrap gap-6'>
           <img 
             className='w-16 h-16 border-2 border-blue rounded-full' 
-            src={avatar}
+            src={avatar || './public/avatar.png'}
             alt="Profile Avatar"
           />
 
