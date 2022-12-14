@@ -8,5 +8,5 @@ Software Developer based in Brazil.
 [![Twitter](https://img.shields.io/badge/-Twitter-317bc0?style=flat-square&labelColor=317bc0&logo=twitter&logoColor=white&link=https://twitter.com/wesleydmscn)](https://twitter.com/wesleydmscn) 
 
 Currently with knowledge in front-end and back-end with JavaScript.
-Looking for an opportunity to use my coding skills, solve complex problems and help complete projects.<br>
+Looking for an opportunity to use my coding skills, solve complex problems and help complete projects.
 Besides programming, I like video games, old movies, chess and math.
