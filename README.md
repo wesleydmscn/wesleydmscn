@@ -1,24 +1,12 @@
-<h1>Wesley Damasceno <img align="center" src="./public/cat.svg"/></h1>
+<h1>Wesley Damasceno <img align="center" src="./public/cat.svg"/></h1> 
 
-<p>This repository has the sole purpose of serving as a simple portfolio website.</p>
+Software Developer based in Brazil.
 
-<h2>Techs</h2>
+[![Codewars](https://img.shields.io/badge/-Codewars-317bc0?style=flat-square&logo=Codewars&logoColor=white&link=https://www.codewars.com/users/wesleydamasceno)](https://www.codewars.com/users/wesleydamasceno)
+[![Codepen](https://img.shields.io/badge/-Codepen-317bc0?style=flat-square&logo=Codepen&logoColor=white&link=https://codepen.io/wesleydmscn)](https://codepen.io/wesleydmscn)
+[![Linkedin](https://img.shields.io/badge/-Linkedin-317bc0?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wesleydamasceno/)](https://www.linkedin.com/in/wesleydamasceno/) 
+[![Twitter](https://img.shields.io/badge/-Twitter-317bc0?style=flat-square&labelColor=317bc0&logo=twitter&logoColor=white&link=https://twitter.com/wesleydmscn)](https://twitter.com/wesleydmscn) 
 
-<p>It was used to build this application:</p>
-
-- React.js
-- Tailwind CSS
-- TypeScript
-- Phosphor Icons
-- Vite
-
-<h2>Links</h2>
-
-- [Github](https://github.com/wesleydmscn)
-- [Codepen](https://codepen.io/wesleydmscn/pens/public)
-- [Linkedin](https://www.linkedin.com/in/wesleydamasceno/)
-- [Twitter](https://twitter.com/wesleydmscn)
-
-<h2>License</h2>
-
-<p>Licensed under the <a href="./LICENSE">MIT</a> license.</p>
+Currently with knowledge in front-end and back-end with JavaScript.
+Looking for an opportunity to use my coding skills, solve complex problems and help complete projects.<br>
+Besides programming, I like video games, old movies, chess and math.
