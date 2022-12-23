@@ -1,36 +1,15 @@
-import { LinkedinLogo, GithubLogo, CodepenLogo, TwitterLogo } from 'phosphor-react';
-
-interface Link {
-  url: string;
-  children: JSX.Element;
-}
-
-const Link = ({ url, children }: Link) => {
-  return (
-    <a className='hover:bg-blue-dark transition-colors rounded' href={url}>
-      {children}
-    </a>
-  )
-}
-
 export const Links = () => {
   return (
-    <>
-      <Link url='https://github.com/wesleydmscn'>
-        <GithubLogo size={32} color="#317BC0"/>
-      </Link>
+    <footer className='flex gap-x-6 text-white'>          
+      <div className='flex gap-x-3 opacity-60 hover:opacity-100'>
+        <img src="/arrowup-right.svg" alt="Icon Arrow Up Right" />
+        <a href="https://github.com/wesleydmscn">follow-me on GitHub</a>
+      </div>
 
-      <Link url='https://codepen.io/wesleydmscn/pens/public'>
-        <CodepenLogo size={32} color="#317BC0"/>
-      </Link>
-
-      <Link url='https://www.linkedin.com/in/wesleydamasceno/'>
-        <LinkedinLogo size={32} color="#317BC0"/>
-      </Link>
-
-      <Link url='https://twitter.com/wesleydmscn'>
-        <TwitterLogo size={32} color="#317BC0"/>
-      </Link>
-    </>
+      <div className='flex gap-x-3 opacity-60 hover:opacity-100'>
+        <img src="/arrowup-right.svg" alt="Icon Arrow Up Right" />
+        <a href="https://codepen.io/wesleydmscn">Codepen projects</a>
+      </div>
+    </footer>
   )
 }
